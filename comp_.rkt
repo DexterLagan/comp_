@@ -27,3 +27,5 @@
                         (string-replace _ " " "-")
                         ) "Hello World")
                 "hello-world"))
+
+; EOF
