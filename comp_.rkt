@@ -1,4 +1,5 @@
 #lang racket
+(provide comp_)
 (module+ test (require rackunit))
 
 ;;; purpose
