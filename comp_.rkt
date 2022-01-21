@@ -13,8 +13,8 @@
 
 ;;; defs
 
-; returns a function that composes parameters in order,
-; using a placeholder _ for passing values between functions.
+;; returns a function that composes parameters in order,
+;; using a placeholder _ for passing values between functions.
 (define-syntax (comp_ stx)
   ; macro to compose functions passing an '_' parameter
   (syntax-case stx ()
